@@ -96,7 +96,7 @@ t[#t+1] = Def.ActorFrame {
 	OffCommand=cmd(smooth,0.4;diffusealpha,0;);
 		Def.BitmapText { 
 			Font= "Common normal",
-			Text= "Theme Beta 1.19", 
+			Text= "Theme Beta 1.20", 
 			InitCommand= function(self) self:shadowlength(1):zoom(0.6):y(44):diffuse(color("#FFC1FD")):horizalign(right) end
 		};
 	};
