@@ -251,9 +251,9 @@ Branch = {
 		return IsNetConnected() and "ScreenTitleMenu" or "ScreenTitleMenu"
 	end,
  	AfterSaveSummary = function()
---		return GameOverOrContinue()
+		return GameOverOrContinue()
 --		[[ Enable when Finished ]]
- 		return GAMESTATE:AnyPlayerHasRankingFeats() and "ScreenNameEntryTraditional" or "ScreenGameOver"
+--		return GAMESTATE:AnyPlayerHasRankingFeats() and "ScreenNameEntryTraditional" or "ScreenGameOver"
 	end,
 	AfterContinue = function()
 		if GAMESTATE:GetNumPlayersEnabled() == 0 then
