@@ -11,9 +11,9 @@ t[#t+1] = Def.ActorFrame {
 		OnCommand=cmd(decelerate,0.5;addy,74;smooth,0.5;addx,-79;);
 		OffCommand=cmd(accelerate,0.5;addy,-74;);
 	};
-	LoadActor("timer") .. {
+	LoadActor(THEME:GetPathG("", "_cm")) .. {
 		InitCommand=cmd(zoom,0.5;x,SCREEN_RIGHT-34;y,SCREEN_TOP-40;);
-		OnCommand=cmd(decelerate,0.5;addy,74;);
+		OnCommand=cmd(decelerate,0.5;addy,74;sleep,0.5);
 		OffCommand=cmd(accelerate,0.5;addy,-74;);
 	};
 --[[ LoadActor("_pinkie") .. {
