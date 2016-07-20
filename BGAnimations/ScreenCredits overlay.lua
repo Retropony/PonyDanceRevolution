@@ -53,6 +53,7 @@ local pdr3 = {
 local pdr4 = {
 	name= "MUSICS",
  	"Alex S.",
+	"TranceBeatPony",
 	"Sim Gretina",
 	"PhillyPu",
 	"",
