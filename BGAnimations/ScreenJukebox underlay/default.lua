@@ -17,7 +17,7 @@ if GAMESTATE:GetCurrentStyle():GetStyleType() == "StyleType_OnePlayerTwoSides" o
 		InitCommand=cmd(x,SCREEN_CENTER_X-140;y,SCREEN_BOTTOM-30;zoom,0;diffuse,GameColor.PonySkin['vinyl']);
 		OnCommand=cmd(sleep,0.6;decelerate,0.6;zoom,0.6;);
 	};
-	t[#t+1] = LoadActor(THEME:GetPathG("", "/ScreenWithMenuElements header/timer/vinyl")) .. {
+	t[#t+1] = LoadActor(THEME:GetPathG("", "_cm")) .. {
 		InitCommand=cmd(x,SCREEN_CENTER_X-140;y,SCREEN_BOTTOM-30;zoom,0);
 		OnCommand=cmd(rotationz,90;sleep,0.6;decelerate,0.6;zoom,0.42;rotationz,-12;smooth,0.3;zoom,0.4;rotationz,0;);
 	};
@@ -25,7 +25,7 @@ if GAMESTATE:GetCurrentStyle():GetStyleType() == "StyleType_OnePlayerTwoSides" o
 		InitCommand=cmd(x,SCREEN_CENTER_X+140;y,SCREEN_BOTTOM-30;zoom,0;diffuse,GameColor.PonySkin['vinyl']);
 		OnCommand=cmd(sleep,0.6;decelerate,0.6;zoom,0.6;);
 	};
-	t[#t+1] = LoadActor(THEME:GetPathG("", "/ScreenWithMenuElements header/timer/vinyl")) .. {
+	t[#t+1] = LoadActor(THEME:GetPathG("", "_cm")) .. {
 		InitCommand=cmd(x,SCREEN_CENTER_X+140;y,SCREEN_BOTTOM-30;zoom,0);
 		OnCommand=cmd(rotationz,-90;sleep,0.6;decelerate,0.6;zoom,0.42;rotationz,12;smooth,0.3;zoom,0.4;rotationz,0;);
 	};
@@ -34,7 +34,7 @@ else
 		InitCommand=cmd(CenterX;y,SCREEN_BOTTOM-30;zoom,0;diffuse,GameColor.PonySkin['vinyl']);
 		OnCommand=cmd(sleep,0.6;decelerate,0.6;zoom,0.6;);
 	};
-	t[#t+1] = LoadActor(THEME:GetPathG("", "/ScreenWithMenuElements header/timer/vinyl")) .. {
+	t[#t+1] = LoadActor(THEME:GetPathG("", "_cm")) .. {
 		InitCommand=cmd(CenterX;y,SCREEN_BOTTOM-30;zoom,0);
 		OnCommand=cmd(rotationz,-90;sleep,0.6;decelerate,0.6;zoom,0.42;rotationz,12;smooth,0.3;zoom,0.4;rotationz,0;);
 	};
