@@ -1,0 +1,8 @@
+function BestPonyScroller()
+	local BestPony =
+	{
+		Default = "pinkie",
+		Choices = { "Adagio Dazzle", "Aloe", "Apple Bloom", "Applejack", "Aria Blaze", "Babs Seed", "Berry Punch", "BonBon", "Carrot Top", "Cheerilee", "Cheese Sandwich", "Cherry Jubilee", "Cloud Kicker", "Cloudchaser", "Coco Pommel", "ColoratuRara", "Countess Coloratura", "Daring Do", "Derpy Hooves", "Diamond Tiara", "Double Diamond", "Dr. Hooves", "Fleetfoot", "Flitter", "Fluttershy", "Lightning Dust", "Limestone Pie", "Lotus Blossom", "Lyra Heartstrings", "Marble Pie", "Maud Pie", "Minuette", "Moondancer", "Night Glider", "Nightmare Moon", "Nurse Redheart", "Octavia Melody", "Party Favor", "Pinkie Pie", "Princess Cadance", "Princess Celestia", "Princess Luna", "Queen Chrysalis", "Rainbow Dash", "Rarity", "Scootaloo", "Shining Armor", "Silver Spoon", "Soarin", "Sonata Dusk", "Spitfire", "Starlight Glimmer", "Sugar Belle", "Sunset Shimmer", "Sweetie Belle", "Tree Hugger", "Trixie Lulamoon", "Twilight Sparkle", "Vinyl Scratch" },
+		Values = { "adagio", "aloe", "applebloom", "applejack", "aria", "babsseed", "punch", "bonbon", "carrottop", "cheerilee", "cheese", "cherry", "cloudkicker", "cloudchaser", "coco", "coloratura", "countess", "daringdo", "derpy", "diamondtiara", "doublediamond", "doctor", "fleetfoot", "flitter", "fluttershy", "lightning", "limestone", "lotus", "lyra", "marble", "maudpie", "minuette", "moondancer", "nightglider", "nmmoon", "nurse", "octavia", "partyfavor", "pinkie", "cadance", "celestia", "luna", "chrysalis", "dash", "rarity", "scootaloo", "shining", "silverspoon", "soarin", "sonata", "spitfire", "starlight", "sugarbelle", "sunset", "sweetie", "treehugger", "trixie", "twilight", "vinyl" }
+	},
+end;

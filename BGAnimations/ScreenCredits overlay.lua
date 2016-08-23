@@ -59,6 +59,7 @@ local pdr4 = {
 	"TranceBeatPony",
 	"Sim Gretina",
 	"PhillyPu",
+	"RuqyoHighsong",
 	"",
 	"SOUND EFFECTS",
 	"from Trotmania (for the moment)",

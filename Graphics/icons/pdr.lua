@@ -31,6 +31,7 @@ t[#t+1] = Def.Sprite {
       Frame0012= 12,
       Frame0013= 13,
       Texture= "pinkieeg",
+      InitCommand=cmd(shadowlength,1),
     };
 
 

@@ -66,8 +66,8 @@ Branch = {
 		if PREFSMAN:GetPreference("ShowCaution") then
 			return "ScreenCaution"
 		else
-			-- return Branch.BestPony()
-			return Branch.StartGame()
+			return Branch.BestPony()
+			-- return Branch.StartGame()
 		end
 	end,
 	BestPony = function()
@@ -245,7 +245,8 @@ Branch = {
 		end
 	end,
 	AfterSummary = function()
-		return "ScreenProfileSaveSummary"
+--		return "ScreenProfileSaveSummary"
+		return "ScreenNameEntryTraditional"
 	end,
 	Network = function()
 		return IsNetConnected() and "ScreenTitleMenu" or "ScreenTitleMenu"
@@ -253,7 +254,7 @@ Branch = {
  	AfterSaveSummary = function()
 		return GameOverOrContinue()
 --		[[ Enable when Finished ]]
---		return GAMESTATE:AnyPlayerHasRankingFeats() and "ScreenNameEntryTraditional" or "ScreenGameOver"
+--		return "ScreenNameEntryTraditional"
 	end,
 	AfterContinue = function()
 		if GAMESTATE:GetNumPlayersEnabled() == 0 then
